@@ -6,7 +6,19 @@
 
 ---
 
-## 0. The single most important truth
+## 0. Team & capacity (this changes the strategy)
+
+This is **NOT a solo developer**. The team is **~10 people, full-stack**, capable of dedicated specialization (gameplay code, art/animation, sound/juice, backend/netcode, growth/SEO/QA) and **parallel workstreams**.
+
+What that unlocks vs a solo dev — and the AI MUST factor this in:
+- **Higher scope is on the table.** Mechanics a solo dev would reject purely for build effort — light multiplayer / `.io` netcode, richer 3D, deeper content, heavier art — are **feasible** and should NOT be auto-rejected for "too hard to build." Reject them only for *strategic* reasons (saturation, retention, monetization, timeline), never for "a solo dev can't."
+- **Higher polish bar.** The team can hit top-1% production value → Poki curation becomes realistic, and CrazyGames thumbnails/feel can out-class incumbents.
+- **PARALLEL MULTI-TITLE LAUNCH = the real fix for the money math.** 10 people can ship and launch **multiple titles across multiple platforms at once**. This directly defeats CrazyGames' ~14-day unmonetized Basic Launch blackout: stagger several titles so several are post-graduation (and FB/Y8, which monetize day-one) are earning simultaneously inside the 20-day window.
+- **Honesty guard:** 10 people in 20 days is still **not** a 100-person studio — avoid true live-service/MMO scope, and remember more people ≠ more quality without coordination. Prefer ambitious-but-shippable.
+
+---
+
+## 0.1 The single most important truth
 
 These are **NOT** all "viral feed" platforms like TikTok. The thing that gives you 100k plays is a **different engine on every platform**. If you optimize for the wrong engine, you get zero traction no matter how good the game is.
 
@@ -25,11 +37,11 @@ These are **NOT** all "viral feed" platforms like TikTok. The thing that gives y
 
 1. **CrazyGames — PRIMARY BET.** Self-serve, meritocratic algorithm, Tier-1 traffic (US/CA/AU/UK present), rewarded + midroll + banner ads at Full Launch. Realistic to hit big numbers fast if retention is good. Requires the game to be **not published on competing portals** for revenue share / exclusivity perks.
 2. **Y8 — SECONDARY / EASY ENTRY.** Open upload (no approval wall). You monetize via **your own Google AdSense** + studio. Lower eCPM, mixed geo → revenue per play is lower; good for *volume + SEO*, weaker for pure dollars.
-3. **Poki — HIGH CEILING, TIMELINE RISK.** If accepted, Poki's marketing can blow past 100k easily. But curation may not approve a brand-new solo dev inside 20 days. Treat as a parallel submission, not a guaranteed pillar.
+3. **Poki — HIGH CEILING, TIMELINE RISK.** If accepted, Poki's marketing can blow past 100k easily. With a 10-person team the **polish bar is reachable**, so the risk is *curation timing*, not build quality — approval may still not land inside 20 days. Treat as a parallel submission, not a guaranteed pillar.
 4. **Facebook Instant Games — SOCIAL UPSIDE, ONBOARDING RISK.** Still live, but Meta has deprioritized gaming and there is permission-review friction. Great if your loop is genuinely social; risky as a revenue guarantee in 20 days.
 5. **YouTube Playables — DEFERRED** (no account yet). Note: it **forbids external ad networks / payments** — Google controls monetization. Revisit after account approval.
 
-> Brutal note: $3,000 in 20 days on **organic only** is aggressive. The math only closes if at least one game gets real algorithmic/SEO lift on CrazyGames or curation lift on Poki. Y8 alone will not get you there on dollars. Each prompt forces a worst/expected/best revenue model so you never fool yourself.
+> Brutal note: $3,000 in 20 days on **organic only** is aggressive even for a team. The single-title math is tight (CrazyGames blacks out monetization for ~14 days). The team's real edge is **parallel titles**: ship 3–5 games across CrazyGames + Y8 + FB simultaneously so several are earning at once, and the $3k becomes a portfolio number, not a single-game miracle. The math still only closes if at least one title gets real algorithmic/SEO lift (CrazyGames) or curation lift (Poki). Each prompt forces a worst/expected/best revenue model so you never fool yourself.
 
 ---
 
@@ -44,7 +56,7 @@ Each file in this folder is a **standalone Phase-1 prompt** for a single platfor
 
 Workflow per platform:
 1. Paste the platform's Phase-1 prompt into a strong reasoning AI **with web/research access**.
-2. It runs the KILL TEST → revenue feasibility → solo-dev advantage → trend research → gap analysis → 3-concept shortlist → picks **ONE** winner with **data + sources** proving it's the best topic *for that platform*.
+2. It runs the KILL TEST → revenue feasibility → team execution advantage → trend research → gap analysis → 3-concept shortlist → picks **ONE** winner with **data + sources** proving it's the best topic *for that platform*.
 3. Only when you reply **"BUILD"** does it move to Phase 2 (implementation) — producing a game whose UI is **better than the current top viral game in that niche on that platform**, on the same core concept.
 
 Run platforms **in feasibility order** (CrazyGames first). Reuse the winning core loop across platforms but re-skin + re-hook per the table above.
@@ -74,6 +86,6 @@ Run platforms **in feasibility order** (CrazyGames first). Reuse the winning cor
 ## 4. Shared non-negotiables (so all builds stay portable)
 
 - **Tech:** vanilla JS + Canvas (or one lightweight engine), self-contained build, no blocking external calls, instant init.
-- **Size discipline:** keep initial load tiny (CrazyGames mobile-homepage eligibility needs ≤20MB; ≤50MB hard cap; FB/YT want small first loads). Build small from day one.
+- **Size discipline (quality-first):** quality is the priority, NOT a tiny file size. Target an initial download **≤20MB** to stay eligible for the CrazyGames mobile homepage (the biggest traffic lever), and never exceed the **≤50MB hard cap**. Achieve the <2s feel via **progressive/smart asset loading** (load the first playable screen first, defer the rest) — not by stripping quality.
 - **Abstraction layer:** wrap all SDK calls (ads, leaderboard, share, IAP) behind a single `Platform` adapter so the same core loop ports to each platform by swapping the adapter.
 - **Analytics from minute one:** D1 retention, session length, ad-trigger acceptance, share-CTR. These metrics ARE the growth engine on CrazyGames/Poki.

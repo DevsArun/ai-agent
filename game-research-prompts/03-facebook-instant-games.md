@@ -19,8 +19,8 @@ CRITICAL PLATFORM CONTEXT (this is a SOCIAL-GRAPH platform — NOT search, NOT a
 - HONEST RISK: Meta has deprioritized its gaming surface in recent years and there is
   permission-review / onboarding friction. The Instant Games tab is less prominent than it
   once was. Titles still launch here (e.g. established social/word titles), but a brand-new
-  solo dev reaching 100k plays in 20 days requires an unusually strong native share loop AND
-  passing app review in time. FLAG THIS UP FRONT.
+  app with NO existing audience reaching 100k plays in 20 days requires an unusually strong
+  native share loop AND passing app review in time. FLAG THIS UP FRONT.
 - SDK = FBInstant: initializeAsync, setLoadingProgress, startGameAsync, getEntryPointData
   (so a challenged friend lands in the exact challenge), context.chooseAsync / createAsync /
   switchAsync (play inside a specific thread/group), updateAsync (post a custom challenge/score
@@ -31,6 +31,14 @@ CRITICAL PLATFORM CONTEXT (this is a SOCIAL-GRAPH platform — NOT search, NOT a
 - BEST-FIT GENRES: social/competitive, word, trivia, quiz, async PvP, .io-style score battles,
   daily-challenge games, "beat your friend" hyper-casual — anything where beating/challenging a
   FRIEND is the core dopamine.
+
+TEAM CONTEXT (do NOT reason as if this is a solo dev):
+- The builder is a ~10-person full-stack TEAM (gameplay, art, sound, backend/netcode, growth/QA)
+  running PARALLEL workstreams. The team CAN build async PvP, light real-time multiplayer, and
+  richer social systems that a solo dev would avoid.
+- DO NOT reject a concept for build effort alone — judge feasibility for a TEAM. The team's edge
+  here is a tighter share loop AND more production polish than scrappy competitors. Reject only
+  for strategic reasons (weak K-factor, app-review timeline, saturation).
 
 ALWAYS cite sources + approximate numbers. Be brutally honest. No hype.
 
@@ -45,7 +53,8 @@ A) List 10 concrete reasons an FB Instant Game FAILS:
 B) For EVERY candidate, run these 6 gates. Must SURVIVE ALL. Fail one -> REJECT + name it:
    1. SHARE-LOOP / K-FACTOR GATE — does playing NATURALLY create a message a friend will open + play?
    2. ASYNC-SOCIAL GATE          — is there a friend-vs-friend or thread/group hook (not just solo)?
-   3. BUILD COMPLEXITY GATE      — solo dev, polished v1 in 1-3 days, small build, mobile-first?
+   3. BUILD COMPLEXITY GATE      — can a ~10-person team ship a polished, mobile-first v1 within
+      the sprint? (async PvP / light multiplayer is allowed; judge for a TEAM, not a solo dev)
    4. RETENTION GATE             — daily reason to return (challenge waiting, streak, leaderboard reset)?
    5. MONETIZATION GATE          — interstitial-at-transition + rewarded + optional IAP without killing the loop?
    6. ONBOARDING-TIMELINE GATE   — realistic to pass FB app review + start spreading inside 20 days?
@@ -64,12 +73,13 @@ REJECT concepts that need a large seed audience you don't have. State plainly wh
 can realistically contribute to $3,000/20 days, or whether it's a long-shot social bet.
 
 ============================================================
-STEP 0.75 — SOLO DEVELOPER ADVANTAGE TEST
+STEP 0.75 — TEAM EXECUTION ADVANTAGE TEST
 ============================================================
-Score 1-10:
-- Can a solo dev design a tighter, more human share loop than a studio?
-- Is the niche too small for funded social-game studios to defend?
-- Does fast iteration on the share message + challenge UX beat budget?
+Score 1-10 (this is a ~10-person team, NOT a solo dev):
+- Can the team design a tighter, more human share loop AND out-polish funded social studios?
+- Is the niche shippable by this team with a stronger K-factor than entrenched incumbents defend?
+- Does the concept reward the team's ability to build real social systems (async PvP, leaderboards,
+  challenge deep-links) rather than a loop any solo could clone?
 Prefer 7+. Low score = a funded social studio will out-distribute you -> deprioritize.
 
 ============================================================
@@ -91,7 +101,7 @@ STEP 1.5 — OPPORTUNITY GAP ANALYSIS
 Score a table per format:
 - Share-loop strength / expected K (High/Med/Low)   - Async-competitive fit (1-10)
 - Daily-return strength (1-10)                        - # of strong incumbents on FB Instant (count + names)
-- Build difficulty for a solo dev (1-10)
+- Build difficulty for the team (1-10)
 PRIORITIZE: strong K-factor + strong async-competition + thin incumbent competition.
 REJECT: formats dominated by entrenched social-game studios. Sort best-opportunity-first.
 
@@ -103,7 +113,7 @@ Only STEP 0/0.5/0.75 survivors. For each:
 - One-line pitch (the social hook)
 - Core loop (per round) + THE share/challenge loop (what message gets sent, why friend opens it)
 - Why it's EASY to win early but compelling to keep challenging friends
-- Build complexity (1-3 days solo, small build, mobile-first, Messenger-native)
+- Build complexity (TEAM build within the sprint, mobile-first, Messenger-native; async PvP / light multiplayer OK)
 - K-factor plan: exactly how each session generates new player invitations
 - Daily-return plan: streaks, waiting challenges, leaderboard resets
 - Monetization fit (interstitial at round-end, rewarded continue/hint, light IAP)
@@ -137,7 +147,7 @@ One-page "FB Instant Games Concept Brief":
 - Final Title (+ 3 backups) + icon concept + the one-line challenge message template
 - Genre + core mechanic (one paragraph)
 - Social-format evidence (what's spreading in chats now; with sources)
-- Solo-dev advantage score + revenue feasibility (worst/expected/best; ads + IAP)
+- Team execution advantage score + revenue feasibility (worst/expected/best; ads + IAP)
 - K-factor model (seed -> invites -> new players) + daily-return plan
 - The EXACT challenge message + flex/shame card the loop sends, and why a friend opens it
 - Monetization plan (where interstitial / rewarded / IAP fire without breaking the social flow)

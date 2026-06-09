@@ -15,8 +15,9 @@ CRITICAL PLATFORM CONTEXT (Poki is curation-gated — totally different from ope
   Poki's own massive owned traffic; Poki actively MARKETS games it believes in. You do not
   fight an SEO war or a social feed — you must PASS CURATION, then let engagement metrics
   earn you scaled placement.
-- The bar is TOP-1% POLISH. Mediocre games are rejected. Curation + QA can take time, so a
-  brand-new solo dev getting approved AND scaled inside 20 days is NOT guaranteed — flag this.
+- The bar is TOP-1% POLISH. Mediocre games are rejected. With a ~10-person team the polish
+  bar is REACHABLE; the real constraint is curation + QA TIMING — approval + scaling inside
+  20 days is NOT guaranteed even for a great build. Flag this as a timing risk, not a quality one.
 - Submission flow: "Poki for Developers" (P4D). Upload versions, use the Inspector + Preview
   tools to see the game exactly as it renders on Poki before release.
 - KEY METRICS Poki optimizes: ENGAGEMENT (average time a player spends in-game, minus time
@@ -30,6 +31,13 @@ CRITICAL PLATFORM CONTEXT (Poki is curation-gated — totally different from ope
   rewardedBreak (rewarded), loading/progress API. Ads must be wrapped correctly so engagement
   time isn't penalized.
 
+TEAM CONTEXT (do NOT reason as if this is a solo dev):
+- The builder is a ~10-person full-stack TEAM (gameplay, art/animation, sound, backend, QA)
+  running PARALLEL workstreams — fully capable of hitting Poki's top-1% polish bar.
+- DO NOT reject a concept for being "too hard for one person." Judge build feasibility for a
+  TEAM. Higher production value (rich art, depth, juice) is an ADVANTAGE here, since Poki
+  rewards polish and engagement-time. Reject only for strategic/timeline reasons.
+
 ALWAYS cite sources + approximate numbers. Be brutally honest. No hype.
 
 ============================================================
@@ -41,10 +49,10 @@ A) List 10 concrete reasons a Poki submission FAILS:
    catalog; not enough depth for repeat sessions; controls clumsy; rejected at QA; can't get
    approved within timeline; relies on PII/login that fails child-privacy rules.
 B) For EVERY candidate, run these 6 gates. Must SURVIVE ALL. Fail one -> REJECT + name it:
-   1. CURATION-POLISH GATE   — can a solo dev hit top-1% polish on this in 1-3 days?
+   1. CURATION-POLISH GATE   — can a ~10-person team hit top-1% Poki polish on this within the sprint?
    2. ENGAGEMENT-TIME GATE   — does it produce long, smooth, loss-free average session time?
    3. KID-SAFE GATE          — age-appropriate theme, art, and data practices?
-   4. BUILD COMPLEXITY GATE  — feasible solo, small build, desktop + mobile web?
+   4. BUILD COMPLEXITY GATE  — feasible for a TEAM (higher scope OK), desktop + mobile web?
    5. MONETIZATION GATE      — rewardedBreak + sparse commercialBreak without hurting engagement?
    6. APPROVAL-TIMELINE GATE — realistic to get accepted + scaled within 20 days? (be honest)
 C) Output a table: concept -> gates passed/failed -> verdict. Only ALL-pass survivors proceed.
@@ -64,13 +72,14 @@ REJECT fantasy-traffic concepts. State clearly whether Poki can realistically co
 $3,000/20 days given approval timing risk.
 
 ============================================================
-STEP 0.75 — SOLO DEVELOPER ADVANTAGE TEST
+STEP 0.75 — TEAM EXECUTION ADVANTAGE TEST
 ============================================================
-Score 1-10:
-- Can a solo dev hit Poki-grade polish + taste faster than a studio would bother to?
-- Is the niche small enough that funded studios skip it, but loved enough that Poki features it?
-- Does iteration speed + craft beat budget here?
-Prefer 7+. Note: Poki rewards CRAFT more than raw speed — weight polish heavily.
+Score 1-10 (this is a ~10-person team, NOT a solo dev):
+- Can the team hit Poki-grade craft + polish faster and higher than a slow funded studio bothers to?
+- Is the niche shippable by this team at top-1% quality, yet loved enough that Poki features it?
+- Does the concept reward the team's production capability (art + animation + sound + depth)?
+Prefer 7+. Note: Poki rewards CRAFT — weight polish/production value heavily; the team's
+edge here is QUALITY at speed, not "small-team scrappiness."
 
 ============================================================
 STEP 1 — TREND & DEMAND RESEARCH (Poki-native)
@@ -92,7 +101,7 @@ STEP 1.5 — OPPORTUNITY GAP ANALYSIS
 Score a table per genre:
 - Poki demand / push (High/Med/Low)        - Engagement-time ceiling (1-10)
 - Curation fit / brand match (1-10)         - # of strong competitors already on Poki (count + names)
-- Polish difficulty for a solo dev (1-10)
+- Polish/production difficulty for the team (1-10)
 PRIORITIZE: high Poki push + high engagement ceiling + strong brand fit + thin top-tier competition.
 REJECT: themes off-brand for a kid-leaning curated catalog. Sort best-opportunity-first.
 
@@ -104,7 +113,7 @@ Only STEP 0/0.5/0.75 survivors. For each:
 - One-line pitch (the instant "pick up and play" hook)
 - Core loop (what the player repeats every 10-30s) + the "one more round" driver
 - Why it's EASY to win early but deep enough to hold long average session time
-- Build complexity (1-3 days solo, small build, desktop + mobile web, top-1% polish plan)
+- Build complexity (TEAM build within the sprint, desktop + mobile web, top-1% polish plan; higher scope/production value OK)
 - Engagement-time plan: how the design maximizes smooth, loss-free minutes per session
 - THE shareable / flex moment (kid-safe) that still spreads outside Poki
 - Monetization fit (rewardedBreak placement + sparse commercialBreak at natural breaks)
@@ -138,7 +147,7 @@ One-page "Poki Concept Brief":
 - Final Title (+ 3 backups) + 5 catalog tags + thumbnail concept
 - Genre + core mechanic (one paragraph)
 - Trend + curation-fit evidence (Poki push, engagement ceiling, competition; with sources)
-- Solo-dev advantage score (craft-weighted) + revenue feasibility (worst/expected/best)
+- Team execution advantage score (craft-weighted) + revenue feasibility (worst/expected/best)
 - Recommended deal type (Web-Exclusive revshare vs flat fee) for a 20-day push + why
 - Approval+scale timeline risk assessment (honest probability inside 20 days)
 - THE engagement-time plan (how minutes-per-session stay high) + the share/flex moment

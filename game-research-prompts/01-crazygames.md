@@ -31,6 +31,16 @@ CRITICAL PLATFORM CONTEXT (this is NOT TikTok/FYP — do not reason like it is):
   hypercasual, idle/clicker, driving, shooting, puzzle, and "unblocked at school" plays.
 - Sessions tend to be longer than TikTok; SEO gives a long evergreen tail (not a 48h spike).
 
+TEAM CONTEXT (do NOT reason as if this is a solo dev):
+- The builder is a ~10-person full-stack TEAM with dedicated gameplay, art/animation,
+  sound, backend/netcode, and growth/QA capability, able to run PARALLEL workstreams.
+- Therefore: DO NOT reject a concept just because it is "hard for one person to build."
+  Higher-scope mechanics (light .io multiplayer / netcode, richer 3D, deeper content,
+  heavier art, top-1% polish) are FEASIBLE. Reject only for STRATEGIC reasons
+  (saturation, retention, monetization, SEO, timeline) — never for raw build effort alone.
+- The team can ship MULTIPLE titles in parallel, so feasibility math may assume a portfolio,
+  not a single game. Still avoid true live-service/MMO scope inside a 20-day window.
+
 ALWAYS cite sources + approximate numbers. Be brutally honest. No hype.
 
 ============================================================
@@ -44,7 +54,9 @@ A) List 10 concrete reasons a CrazyGames title FAILS:
 B) For EVERY candidate, run these 6 gates. Must SURVIVE ALL. Fail one -> REJECT + name it:
    1. ALGORITHM-RETENTION GATE — strong D1 retention + long avg playtime to pass Basic Launch?
    2. SEO GATE              — is there a real, rankable search query with volume + buyer intent?
-   3. BUILD COMPLEXITY GATE — solo dev, polished v1 in 1-3 days, <=20MB initial download?
+   3. BUILD COMPLEXITY GATE — can a ~10-person team ship a POLISHED, ambitious v1 within the
+      sprint (roughly 1 week with parallel art/code/sound), <=20MB initial download (<=50MB cap)?
+      Note: higher scope (netcode, 3D, rich art) is allowed — judge feasibility for a TEAM, not a solo dev.
    4. WEB-CONTROLS GATE     — works flawlessly on desktop (mouse/kbd) AND mobile web (touch)?
    5. MONETIZATION GATE     — natural rewarded + interstitial-at-transition + optional IAP?
    6. SHAREABLE-MOMENT GATE — a clip/score-card people post off-platform that links back?
@@ -65,13 +77,17 @@ REJECT concepts that only hit targets under fantasy traffic. State plainly wheth
 alone can meaningfully contribute to $3,000/20 days, or whether it is a volume/SEO play.
 
 ============================================================
-STEP 0.75 — SOLO DEVELOPER ADVANTAGE TEST
+STEP 0.75 — TEAM EXECUTION ADVANTAGE TEST
 ============================================================
-Score 1-10:
-- Can a solo dev out-iterate funded .io/hypercasual studios on taste + speed here?
-- Is the prize small/niche enough that big studios ignore it?
-- Does fast iteration beat budget (no heavy 3D art / no live-ops team needed)?
-Prefer 7+. Low score = likely crushed by a funded clone -> deprioritize.
+Score 1-10 (this is a ~10-person team, NOT a solo dev):
+- Can a fast, coordinated 10-person team out-EXECUTE slow funded studios on trend-speed,
+  taste, polish, AND production value (not just "out-iterate because we're small")?
+- Is the scope ambitious enough to out-class scrappy solo/clone competitors on quality,
+  yet still shippable by this team inside the sprint?
+- Does the concept reward the team's parallel capability (art + netcode + juice at once)
+  rather than being a commodity anyone can clone in a day?
+Prefer 7+. Low score = either too trivial (a solo clone matches it) or too big (a funded
+studio out-scales you) -> deprioritize.
 
 ============================================================
 STEP 1 — TREND & DEMAND RESEARCH (CrazyGames-native + SEO)
@@ -107,7 +123,7 @@ Only STEP 0/0.5/0.75 survivors. For each:
 - One-line pitch (the scroll-stopping hook)
 - Core loop (what the player repeats every 10-30s)
 - Why it's EASY to win early but hard to master
-- Build complexity (1-3 days, vanilla JS/Canvas, <=20MB, desktop+mobile web)
+- Build complexity (TEAM build, ~1 week with parallel art/code/sound, <=20MB target / <=50MB cap, desktop+mobile web; higher scope like netcode/3D/rich art is allowed)
 - Basic-Launch metric plan: how it forces high D1 retention + long playtime in 14 days
 - THE shareable moment (clip/score card that links back to the CrazyGames page)
 - Monetization fit (rewarded + interstitial-at-transition + IAP) + replay reason
@@ -141,7 +157,7 @@ One-page "CrazyGames Concept Brief":
 - Final Title (+ 3 backups) + primary keyword + 5 SEO tags + thumbnail concept
 - Genre + core mechanic (one paragraph)
 - Trend + SEO evidence (demand/difficulty/competition scores, with sources)
-- Solo-dev advantage score + revenue feasibility (worst/expected/best; ads + IAP)
+- Team execution advantage score + revenue feasibility (worst/expected/best; ads + IAP)
 - Basic Launch -> Full Launch graduation plan (which metrics, what targets, how the design forces them)
 - THE shareable moment + what the flex/share card shows + how it links back
 - Monetization plan (exactly where each rewarded / interstitial / banner / IAP fires)
