@@ -59,6 +59,8 @@ Workflow per platform:
 2. It runs the KILL TEST → revenue feasibility → team execution advantage → trend research → gap analysis → 3-concept shortlist → picks **ONE** winner with **data + sources** proving it's the best topic *for that platform*.
 3. Only when you reply **"BUILD"** does it move to Phase 2 (implementation) — producing a game whose UI is **better than the current top viral game in that niche on that platform**, on the same core concept.
 
+> ⚠️ **Data-integrity rule (baked into every prompt):** the AI must confirm it has **live web access** and verify all market claims against **named live competitors this session**. If it has no internet, it must say so and refuse to present guesses as facts. It must also separate **category demand** (e.g. "2 player games" is huge) from **sub-niche saturation** (e.g. the ragdoll-brawler sub-niche is already flooded with clones like Ragdoll Hit / Rooftop Snipers). A "thin competition" claim is invalid until verified — this prevents recommending a saturated niche on guesswork.
+
 Run platforms **in feasibility order** (CrazyGames first). Reuse the winning core loop across platforms but re-skin + re-hook per the table above.
 
 ---

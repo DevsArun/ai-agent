@@ -38,7 +38,16 @@ TEAM CONTEXT (do NOT reason as if this is a solo dev):
   TEAM. Higher production value (rich art, depth, juice) is an ADVANTAGE here, since Poki
   rewards polish and engagement-time. Reject only for strategic/timeline reasons.
 
-ALWAYS cite sources + approximate numbers. Be brutally honest. No hype.
+DATA INTEGRITY & LIVE-VERIFICATION PROTOCOL (READ FIRST — mandatory, this is the #1 rule):
+- BEFORE anything else, confirm you actually have LIVE web/research access THIS session and use it.
+  * If you do NOT have live access, STOP and tell me plainly. DO NOT invent "live" citations and
+    DO NOT present prior-knowledge guesses as verified facts. Either (a) ask me to paste the data,
+    or (b) tag EVERY market claim "UNVERIFIED ESTIMATE — verify before building" and lower confidence.
+- Every claim about search volume, trend direction, or competition MUST cite a source you actually
+  opened THIS session (named URL), or be explicitly tagged as an estimate. No silent guessing.
+- A concept whose advantage rests on an UNVERIFIED "thin competition / quality gap" claim MUST NOT
+  become the final pick until that gap is verified against live competitors BY NAME (see STEP 1.5).
+- Be brutally honest. No hype. Verified data beats confident guessing every time.
 
 ============================================================
 STEP 0 — KILL TEST (do this BEFORE proposing anything)
@@ -104,6 +113,17 @@ Score a table per genre:
 - Polish/production difficulty for the team (1-10)
 PRIORITIZE: high Poki push + high engagement ceiling + strong brand fit + thin top-tier competition.
 REJECT: themes off-brand for a kid-leaning curated catalog. Sort best-opportunity-first.
+
+MANDATORY LIVE SATURATION CHECK (do this with real searches; name names — skipping this is failure):
+- Separate CATEGORY-level demand from SUB-NICHE saturation. A genre Poki features heavily can
+  still be flooded with near-identical titles — that is the most common trap.
+- For each candidate's EXACT mechanic + theme, search live Poki + Google (e.g. "poki <mechanic>",
+  "<mechanic> game") and LIST the real competitors BY NAME with URLs, count them, and judge their
+  quality + how entrenched they are.
+- If the specific sub-niche already has multiple established/quality titles, mark it SATURATED and
+  either REJECT it or require a concrete NOVEL differentiator (a real mechanic/theme twist — NOT
+  merely "we'll have better polish", which loses in a crowded catalog).
+- Cite the competitor URLs you actually opened. An unchecked "quality gap" claim is invalid.
 
 ============================================================
 STEP 2 — CONCEPT SHORTLIST (propose 3, then pick 1)
